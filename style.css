@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  max-width: 1300px;
+  border-radius: 15px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+.correct {
+  background-color: #28a745 !important;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #dc3545 !important;
+  color: #fff;
+}
